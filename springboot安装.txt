@@ -1,0 +1,26 @@
+spring --version
+.yaml  :
+
+.propeerties
+ maven <scope>
+
+
+SpringBoot学习：使用spring-boot-devtools进行热部署
+使用devtools方式 增加maven的devtools依赖
+ <optional>true</optional>
+ <configuration>
+            <fork>true</fork>
+  </configuration>
+idea需要1）File-Settings-Compiler-Build Project automatically
+         2）ctrl + shift + alt + /,
+          选择Registry,勾上 Compiler autoMake allow when app running
+
+
+maven启动命令 进入项目的有pom.xml文件的目录下输入 mvn spring-boot:run 
+  jar/war 部署启动
+
+
+lombok 自动生成getset 方法
+
+
+
