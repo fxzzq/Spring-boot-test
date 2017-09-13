@@ -1,0 +1,31 @@
+13ba8ae9166bb7c26882c72e4d9c88be
+
+.js后缀的是脚本文件，
+.json后缀的文件是配置文件，
+.wxss后缀的是样式表文件。
+
+每一个小程序页面是由同路径下同名的四个不同后缀文件的组成，如：index.js、index.wxml、index.wxss、index.json。.js后缀的文件是脚本文件，.json后缀的文件是配置文件，.wxss后缀的是样式表文件，.wxml后缀的文件是页面结构文件。
+
+ MINA 框架
+
+node --version
+npm -v
+
+
+导入 DEMO 和配置  
+
+git clone https://github.com/tencentyun/wafer2-startup.git
+
+安装依赖
+
+这步非常重要请不要忽略！
+
+接着在下载下来的目录打开 CMD 安装依赖：
+
+# 切换到 server 文件夹
+cd server
+
+# 安装依赖
+npm install
+
+xgrkb45tw6xc8mn0z1en
